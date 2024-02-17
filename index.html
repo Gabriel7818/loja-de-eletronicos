@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja de Eletrônicos</title>
     <link rel="stylesheet" href="/css/index.css">
+    <!-- Adicione um carrossel de destaques -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 </head>
 <body>
     <header>
@@ -18,31 +20,57 @@
         </nav>
     </header>
     
+    <!-- Carrossel de Destaques -->
     <section class="banner">
         <h2>Bem-vindo à nossa loja!</h2>
+        <div class="destaques-slider">
+            <div><img src="destaque1.jpg" alt="Destaque 1"></div>
+            <div><img src="destaque2.jpg" alt="Destaque 2"></div>
+            <div><img src="destaque3.jpg" alt="Destaque 3"></div>
+        </div>
         <p>Encontre os melhores produtos eletrônicos aqui.</p>
         <a href="#" class="btn">Ver Produtos</a>
     </section>
 
-    <section class="produtos">
-        <h2>Nossos Produtos</h2>
+    <section class="promocoes">
+        <h2>Promoções Especiais</h2>
+        <!-- Adicione promoções especiais aqui -->
+        <div class="promocao">
+            <img src="promocao1.jpg" alt="Promoção 1">
+            <h3>Promoção Especial 1</h3>
+            <p>R$ 499,99</p>
+            <a href="#" class="btn">Ver Detalhes</a>
+        </div>
+        <div class="promocao">
+            <img src="promocao2.jpg" alt="Promoção 2">
+            <h3>Promoção Especial 2</h3>
+            <p>R$ 299,99</p>
+            <a href="#" class="btn">Ver Detalhes</a>
+        </div>
+    </section>
+
+    <section class="novidades">
+        <h2>Novidades</h2>
+        <!-- Adicione novos produtos aqui -->
         <div class="produto">
-            <img src="produto1.jpg" alt="Produto 1">
-            <h3>Nome do Produto 1</h3>
-            <p>R$ 999,99</p>
+            <img src="novidade1.jpg" alt="Novidade 1">
+            <h3>Novo Produto 1</h3>
+            <p>R$ 199,99</p>
             <a href="#" class="btn">Comprar</a>
         </div>
         <div class="produto">
-            <img src="produto2.jpg" alt="Produto 2">
-            <h3>Nome do Produto 2</h3>
-            <p>R$ 799,99</p>
+            <img src="novidade2.jpg" alt="Novidade 2">
+            <h3>Novo Produto 2</h3>
+            <p>R$ 149,99</p>
             <a href="#" class="btn">Comprar</a>
         </div>
-        <!-- Adicione mais produtos conforme necessário -->
     </section>
 
     <footer>
         <p>&copy; 2024 Loja de Eletrônicos. Todos os direitos reservados.</p>
     </footer>
+
+    <!-- Referencie o arquivo JavaScript -->
+    <script src="/js/index.js"></script>
 </body>
 </html>
