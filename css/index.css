@@ -9,6 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #fff; /* Fundo branco */
 }
 
 header {
@@ -32,35 +33,35 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Personalização do Banner */
 .banner {
-    background-image: url('banner.jpg');
-    background-size: cover;
-    color: #fff;
+    background-color: #333; /* Cor de fundo do banner */
+    color: #fff; /* Cor do texto */
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 0; /* Espaçamento interno */
 }
 
 .banner h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 36px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
 }
 
 .banner p {
-    font-size: 20px;
-    margin-bottom: 30px;
+    font-size: 20px; /* Tamanho da fonte do texto */
+    margin-bottom: 30px; /* Espaçamento inferior */
 }
 
-.btn {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+.banner .btn {
+    background-color: #fff; /* Cor de fundo do botão */
+    color: #333; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remover sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
 }
 
-.btn:hover {
-    background-color: #555;
+.banner .btn:hover {
+    background-color: #555; /* Cor de fundo do botão ao passar o mouse */
 }
 
 .produtos {
@@ -75,7 +76,8 @@ nav ul li a {
 }
 
 .produto img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
@@ -92,5 +94,5 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0; /* Aumenta o espaçamento no rodapé */
 }
