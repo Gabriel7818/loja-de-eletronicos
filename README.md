@@ -1,4 +1,3 @@
-```markdown
 # Loja de Eletrônicos
 
 Este é um projeto de uma loja de eletrônicos desenvolvido como parte de um curso ou projeto pessoal.
