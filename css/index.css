@@ -154,3 +154,24 @@ footer {
 .produto .btn:hover {
     background-color: #555;
 }
+
+/* Estilos para a tela modal */
+.modal {
+    display: none; /* Por padrão, a tela modal está oculta */
+    position: fixed; /* Posição fixa para cobrir toda a tela */
+    top: 50%; /* Posiciona o topo da modal no meio da tela */
+    left: 50%; /* Posiciona a esquerda da modal no meio da tela */
+    transform: translate(-50%, -50%); /* Move a modal para o centro */
+    background-color: rgba(0, 0, 0, 1); /* Fundo semi-transparente */
+    width: 80%; /* Largura da modal */
+    max-width: 600px; /* Largura máxima da modal */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 10px; 
+    z-index: 999; /* Coloca a modal na frente de outros elementos */
+}
+
+.modal-content {
+    background-color: #fff; /* Fundo branco da área de conteúdo */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 10px; 
+}
